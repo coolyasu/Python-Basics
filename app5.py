@@ -60,3 +60,10 @@ def mult(*num):
     return total
 
 print(mult(1, 2, 3, 4, 5))  # 120
+
+
+def calc(a, b):
+    return a + b, a - b
+
+sum_val, sub_val = calc(10, 5)
+print(sum_val, sub_val)
